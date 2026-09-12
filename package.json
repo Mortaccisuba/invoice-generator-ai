@@ -1,0 +1,33 @@
+{
+  "name": "invoice-generator-ai",
+  "version": "1.0.0",
+  "description": "Aplicación para generar facturas, cuentas de cobro y cotizaciones en PDF usando procesamiento de lenguaje natural (texto o voz)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "invoice",
+    "factura",
+    "pdf",
+    "telegram",
+    "ai",
+    "nlp"
+  ],
+  "author": "Mortaccisuba",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.63.0",
+    "pdfkit": "^0.13.0",
+    "axios": "^1.6.0",
+    "google-spreadsheet": "^4.0.1",
+    "google-auth-library": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
